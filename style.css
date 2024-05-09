@@ -1,0 +1,202 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  /* height: 100vh; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+#main-container {
+  display: flex;
+  height: 100vh;
+}
+
+#sidebar {
+  width: 30%;
+  border-right: 1px solid black;
+  margin-right: 1rem;
+}
+
+main {
+  width: 70%;
+  padding: 1rem;
+}
+#sidebar ul {
+  padding: 0.5rem 1rem;
+}
+
+#sidebar ul li {
+  padding: 0.5rem;
+}
+#sidebar ul li a {
+  width: 100%;
+}
+
+#sidebar ul li:hover {
+  background-color: #e2e1e1;
+  border-radius: 5px;
+}
+
+header {
+  padding: 1rem 1rem;
+  border-bottom: 1px solid black;
+}
+
+header .container {
+  display: flex;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .img-container {
+  height: 50px;
+  width: 50px;
+  margin-right: 1rem;
+}
+
+header .img-container img {
+  width: 100%;
+  height: 100%;
+}
+header .container .logo {
+  display: flex;
+}
+
+header .container h3 {
+  height: min-content;
+  margin: auto;
+}
+
+footer {
+  background-color: #2f2f2f;
+  color: #e2e1e1;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a {
+  color: #e2e1e1;
+}
+footer #list-member h4,
+footer #footer-nav h4 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+footer #groups {
+  display: flex;
+}
+footer #groups #group_1 {
+  margin-right: 0.5rem;
+}
+footer #groups #group_2 {
+  margin-left: 0.5rem;
+}
+
+#footer-nav {
+  width: 200px;
+}
+#footer-nav nav {
+  padding: 0 1rem;
+}
+
+#footer-nav ul {
+  padding: 0;
+  width: 100%;
+}
+
+#footer-nav ul li {
+  padding: 0.25rem;
+}
+ul li a {
+  width: 100%;
+  display: inline-block;
+}
+#footer-nav ul li:hover {
+  background-color: #b7b7b7;
+  border-radius: 5px;
+  color: #2f2f2f;
+}
+
+footer .container img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 0.25rem 0.5rem;
+}
+
+caption{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.form-group{
+  width: 100%;
+}
+
+input{
+  width: 100%;
+  height: 1.5rem;
+  margin-bottom: 8px;
+}
+
+input:focus{
+  outline: 2px solid rgb(203, 203, 203);
+  padding: 0.125rem 0 0.125rem 0.75rem;
+}
+
+label{
+  margin-bottom: 4px;
+  display: inline-block;
+}
+
+.btn{
+  padding: 0.5rem 1rem;
+  border: 1px solid #333;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgb(250, 250, 250);
+}
+
+.inline-form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inline-form :nth-child(1){
+  width: 25%;
+}
+.inline-form :nth-child(2){
+  width: 75%;
+}

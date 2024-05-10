@@ -21,13 +21,12 @@
                     <a href="logout.php">Deconnection</a>
                 </li>
             <?php } else { ?>
-                <?php if ($_SERVER['REQUEST_URI'] == '/projetWeb_Groupe_4/index.php') { ?>
+                <?php if ($_SERVER['REQUEST_URI'] == '/index.php') { ?>
 
                     <li>
                         <a href="login.php">Veuillez-vous connecter sur notre site</a>
                     </li>
                 <?php } ?>
-
             <?php } ?>
         </ul>
     </nav>
